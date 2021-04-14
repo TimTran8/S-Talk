@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "list.h"
-#include "setup.h"
-#include "sender.h"
-#include "receiver.h"
+// #include "list.h"
+// #include "setup.h"
+// #include "sender.h"
+// #include "receiver.h"
+#include "../headers/receiver.h"
+#include "../headers/list.h"
+#include "../headers/sender.h"
+#include "../headers/setup.h"
 
 int main(int argc, char** args)
 {

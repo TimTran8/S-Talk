@@ -1,0 +1,30 @@
+this
+Local Port: 6001
+Remote Machine: localhost
+Remote Port: 6000
+IP ADDRESS OF REMOTE: 127.0.0.1
+Finished setting up
+
+
+Received:
+is
+
+Received:
+a
+
+Received:
+test
+
+Received:
+!
+
+Received:
+
+screenOut: Exiting program
+
+'!' detected: Exiting program
+Cancelled screenInThread
+Cancelled networkOutThread
+Cancelled networkInThread
+Cancelled screenOutThread
+Finished

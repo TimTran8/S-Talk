@@ -3,10 +3,14 @@
 #include <unistd.h>
 #include <string.h>
 #include <pthread.h>
-#include "list.h"
-#include "setup.h"
-#include "sender.h"
-#include "receiver.h"
+#include "../headers/receiver.h"
+#include "../headers/list.h"
+#include "../headers/sender.h"
+#include "../headers/setup.h"
+// #include "list.h"
+// #include "setup.h"
+// #include "sender.h"
+// #include "receiver.h"
 
 static pthread_t screenInThread;
 static pthread_t networkOutThread;

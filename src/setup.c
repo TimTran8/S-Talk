@@ -8,7 +8,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <netdb.h>
-#include "setup.h"
+#include "../headers/setup.h"
 
 void closeNetwork()
 {

@@ -1,0 +1,76 @@
+readval 5
+Sending message: test
+
+Sent message: test
+
+numBytes: 5
+readval 5
+Sending message: asdf
+
+Sent message: asdf
+
+numBytes: 5
+readval 5
+Sending message: zxcv
+
+Sent message: zxcv
+
+numBytes: 5
+readval 5
+Sending message: asdf
+
+Sent message: asdf
+
+numBytes: 5
+readval 13
+Sending message: paoeiwraasdf
+
+Sent message: paoeiwraasdf
+
+numBytes: 13
+Message: 2
+
+Message added: 2
+
+Message in list: 2
+
+strcpy works
+Received: 2
+
+Message: zcvb
+
+Message added: zcvb
+
+Message in list: zcvb
+
+strcpy works
+Received: zcvb
+
+Message: asdf
+
+Message added: asdf
+
+Message in list: asdf
+
+strcpy works
+Received: asdf
+
+Message: ewra
+
+Message added: ewra
+
+Message in list: ewra
+
+strcpy works
+Received: ewra
+
+readval 2
+Sending message: !
+
+Sent message: !
+
+numBytes: 2
+sendMessage: Exiting program
+getKeyboard: Exiting program
+Returned null
+Finished
