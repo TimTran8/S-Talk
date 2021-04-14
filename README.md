@@ -1,0 +1,16 @@
+Users should wait for setup to finish when running s-talk before sending messages (cat or otherwise).
+
+When running with Valgrind, the only memory leaks are the "still reachable" leaks, which can be ignored as stated by 
+Harinder on Piazza.
+
+When sending a cat file with no '!', s-talk detects EOF and exits sender as suggested by Harinder on Piazza.
+S-talk still allows for messages to be received and will exit either manually or if the other user sends a '!'.
+Also when the receiving terminal sends a '!' back, it exits both terminals however the terminal sending the file will end
+with and error possibly due to it cancelling threads that have already exited. This was undefined behaviour so I handled
+it accordingly.
+
+When an error message about cancelling appears, it is most likely due to a thread already having been exited
+and is trying to be cancelled.
+
+Sometimes a terminal when receiving a large file (~4000 characters), it only receives half or so, possibly due to packets 
+lost through UDP, but can still send and receive. It can then be exited by receiving a '!' or sending a '!'.# S-Talk
